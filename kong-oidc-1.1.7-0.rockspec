@@ -1,8 +1,8 @@
 package = "kong-oidc"
-version = "1.1.6-0"
+version = "1.1.7-0"
 source = {
     url = "git://github.com/source-stream/kong-oidc",
-    tag = "v1.1.6",
+    tag = "v1.1.7",
     dir = "kong-oidc"
 }
 description = {
@@ -23,7 +23,7 @@ description = {
 }
 
 dependencies = {
-    "https://raw.githubusercontent.com/balajiv113/lua-resty-openidc/resty-session-4.x/lua-resty-openidc-1.7.6-3.rockspec"
+    "https://raw.githubusercontent.com/source-stream/lua-resty-openidc-4/v1.7.7/lua-resty-openidc-1.7.7-0.rockspec"
 }
 build = {
     type = "builtin",
